@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 html {
@@ -77,6 +78,17 @@ a {
     left: 80px;
     top: 400px;
 }
+
+.imagensSobrepostas {
+    position: absolute;
+    width: 367px;
+    height: 549px;
+    left: 773px;
+    top: 200px;
+  }
+
+
+  
 
 
 @media only screen and (max-width: 768px) {
