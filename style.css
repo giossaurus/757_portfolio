@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    color: #fff;
+    background: #000000;
+    -webkit-font-smoothing: antialiased;
 }
 
 html {
@@ -20,7 +23,7 @@ a {
 }
 
 .header{
-    border-bottom: 1px solid #E2E8F0;
+    border-bottom: 4px;
 }
 
 .navbar {
@@ -41,7 +44,7 @@ a {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #101010;
+    background-color: #fff;
 }
 
 .navMenu {
@@ -57,7 +60,7 @@ a {
 .navLink{
     font-size: 1.6rem;
     font-weight: 400;
-    color: #475569;
+    color: #fff;
 }
 
 .navLink:hover{
@@ -67,7 +70,7 @@ a {
 .navLogo {
     font-size: 2.1rem;
     font-weight: 500;
-    color: #482ff7;
+    color: #fff;
 }
 
 
@@ -83,13 +86,12 @@ a {
     position: absolute;
     width: 367px;
     height: 549px;
-    left: 773px;
+    left: 800px;
     top: 200px;
+   
   }
 
-
   
-
 
 @media only screen and (max-width: 768px) {
     .navMenu {
@@ -97,13 +99,10 @@ a {
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        background-color: #fff;
         width: 100%;
-        border-radius: 10px;
+        text-decoration: none;
         text-align: center;
         transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
     }
 
     .navMenu.active {
